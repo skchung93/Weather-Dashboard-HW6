@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header class='text-center'>
+       <h1> Weather Dashboard </h1>
+    </header>
+
+<!-- This is going to be the div with the form we can use to input which city we're searching for. -->
+    <div class='col-3 align-self-start ml-15'>
+        <div class='row'>
+            <div class='col-3'>
+                <h2>Search for a City</h2>
+                    <form>
+                        <input class='search-city'>
+                        <button type='button' class='search-button'>Submit</button>
+                    </form>
+<!-- This is going to be the list of our search history? -->
+                    <ul class='search-history'></ul>
+            </div>
+        </div>
+    </div>
+   
+<!-- This is going to be a div for the spot that prints the current weather -->
+    <div class="col-9">
+        <div class='row'></div> 
+            <div class='current-weather well card-body'>
+                <h2 class='current-city card-title'>City: </h2>
+                    <p class='current-temp card-text'>Temp:</p>
+                    <p class='current-wind card-text'>Wind:</p>
+                    <p class='current-humidity card-text'>Humidity:</p>
+                    <p class='current-uv card-text'>UV Index:</p>
+            </div>
+        </div>     
+
+<!-- This is going to be the div for the 5 day forecast. -->
+        <div class='forecast'>
+            <h2>5-Day Forecast:</h2>
+        </div>    
+        <div class='five-day row'>
+            <div class='col'>
+                <div class='day-1 well card-body'></div>
+            </div>    
+            <div class='col'>
+                <div class='day-2 well card-body'></div>
+            </div>
+            <div class='col'>
+                <div class='day-3 well card-body'></div>
+            </div>
+            <div class='col'>
+                <div class='day-4 well card-body'></div>
+            </div>            
+            <div class='col'>
+                <div class='day-5 well card-body'></div>
+            </div>
+        </div>
+    </div>     
+
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- moment js -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<!-- my script for this homework -->
+<script src='script.js'></script>
+</body>
+</html>
