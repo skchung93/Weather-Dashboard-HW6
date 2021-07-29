@@ -45,7 +45,8 @@ function userInput(){
 function currentCityWeather(){
     
     //code to clear the appends before appending new data.
-    $('p').empty();    
+    $('p').remove();
+    $('img').remove();
     //variable to build the query URL to get the latitude and longitude from OneWeather
     var currentWeatherURL = currentWeatherConditions + city + '&appid=' + APIKey + '&units=imperial';
 
