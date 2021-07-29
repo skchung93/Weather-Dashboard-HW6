@@ -16,10 +16,10 @@
     </header>
 
 <!-- This is going to be the div with the form we can use to input which city we're searching for. -->
-    <div class='col-3 align-self-start ml-15'>
-        <div class='row'>
-            <div class='col-3'>
-                <h2>Search for a City</h2>
+
+    <div class='row'>
+            <div class='search-side col-md-3 justify-content-center'>
+                <h2 class='justify-content-center'>Search for a City</h2>
                     <form>
                         <input class='search-city'>
                         <button type='button' class='search-button'>Submit</button>
@@ -27,13 +27,10 @@
 <!-- This is going to be the list of our search history? -->
                     <ul class='search-history'></ul>
             </div>
-        </div>
-    </div>
    
 <!-- This is going to be a div for the spot that prints the current weather -->
-    <div class="col-9">
-        <div class='row'></div> 
-            <div class='current-weather well card-body'>
+    <div class='col-md-9'>
+            <div class='current-weather card-body'>
                 <h2 class='current-city card-title'>City: </h2>
                     <p class='current-temp card-text'>Temp:</p>
                     <p class='current-wind card-text'>Wind:</p>
@@ -41,30 +38,30 @@
                     <p class='current-uv card-text'>UV Index:</p>
             </div>
         </div>     
-
+    </div>  
+    
 <!-- This is going to be the div for the 5 day forecast. -->
-        <div class='forecast'>
+        <div class='col-md-9 forecast'>
             <h2>5-Day Forecast:</h2>
         </div>    
         <div class='five-day row'>
             <div class='col'>
-                <div class='day-1 well card-body'></div>
+                <div class='day-1 card-body dates'></div>
             </div>    
             <div class='col'>
-                <div class='day-2 well card-body'></div>
+                <div class='day-2 card-body dates'></div>
             </div>
             <div class='col'>
-                <div class='day-3 well card-body'></div>
+                <div class='day-3 card-body dates'></div>
             </div>
             <div class='col'>
-                <div class='day-4 well card-body'></div>
+                <div class='day-4 card-body dates'></div>
             </div>            
             <div class='col'>
-                <div class='day-5 well card-body'></div>
+                <div class='day-5 card-body dates'></div>
             </div>
         </div>
-    </div>     
-
+ 
 <!-- jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- moment js -->
