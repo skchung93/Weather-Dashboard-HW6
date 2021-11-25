@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# **Weather Dashboard**
 
-You can use the [editor on GitHub](https://github.com/skchung93/Weather-Dashboard-HW6/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contribution)
+- [Test](#test)
+- [License](#license)
+- [Email & Github](#contact)
 
-### Markdown
+### DESCRIPTION <a name="description"></a>
+This is project that used a Server Side API (the OpenWeather One Call API). The purpose of this project was the allow a user to search for a city and display the current and future weather conditions of that city.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Installation Instructions <a name="introduction"></a>
+Download or clone the repository, and push it into github or your preferred webhosting site. Or access the deployed application here: https://skchung93.github.io/Weather-Dashboard-HW6/
 
-```markdown
-Syntax highlighted code block
+### Usage Guide <a name="usage"></a>
+Check out the deployed application in the link above.
 
-# Header 1
-## Header 2
-### Header 3
+### How to Contribute <a name="contribution"></a>
+If you'd like to contribute please send an email to SKCHUNG93@Gmail.com or message me on github.
 
-- Bulleted
-- List
+### How to Test the Application <a name="test"></a>
+Have fun testing out the code :)
 
-1. Numbered
-2. List
+### Licenses <a name="license"></a>
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+(https://opensource.org/licenses/MIT)
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skchung93/Weather-Dashboard-HW6/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### Email & Github <a name="contact"></a>
+SKCHUNG93@GMAIL.COM </br>
+https://github.com/skchung93/  
